@@ -9,9 +9,6 @@
            } else {
                echo '<td bgcolor="#C0C0C0">'.$i.'x'.$a.'='.$ans.'</td>';
            } 
-           
-
-         
        }
        echo '</tr>';
    }
