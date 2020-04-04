@@ -3,3 +3,5 @@
   <input type="text" name="email">
   <input type="submit" value="送信">
 </form>
+
+Thank you
