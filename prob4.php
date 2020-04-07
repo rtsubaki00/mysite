@@ -9,6 +9,9 @@ $a = 3;
    } elseif($a == 3){
        echo '今日は湿度が高いね';
        echo '<br>';
+   } else {
+       echo 'さようなら';
+       echo '<br>';
    }
 
    if($a >= 3){
@@ -16,10 +19,6 @@ $a = 3;
        echo '<br>';
    }
    
-   if($a <= 0){
-       echo 'さようなら';
-       echo '<br>';
-   }
 
    
 
