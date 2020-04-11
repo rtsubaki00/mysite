@@ -25,6 +25,8 @@ foreach ($file as $line) {
     echo $line[$i].'<br>';
   }
 }
-echo 'Thank you';
+
  
 ?>
+
+Thank you
