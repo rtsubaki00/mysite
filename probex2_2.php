@@ -1,4 +1,5 @@
 <?php
+
  
 $filepath = 'testdata.csv';
  
@@ -26,6 +27,9 @@ foreach ($file as $line) {
   }
 }
 
+$a = fopen("testdata.csv", "a");
+@fwrite($a, "Thank you");
+fclose($a);
  
 ?>
 
