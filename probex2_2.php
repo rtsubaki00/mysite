@@ -29,4 +29,3 @@ foreach ($file as $line) {
  
 ?>
 
-Thank you
