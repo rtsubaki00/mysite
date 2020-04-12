@@ -26,4 +26,5 @@ foreach ($file as $line) {
   }
 }
  
+var_dump($line);
 ?>
