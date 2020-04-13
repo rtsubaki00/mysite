@@ -17,14 +17,13 @@ foreach ($file as $line) {
   
  
   
-  $cnt = count($line);
- 
-  
- 
-  for($i = 0; $i < $cnt; $i++){
-    echo $line[$i].'<br>';
+  foreach($line as $value){
+    echo $value.'<br>';
   }
+  
+  
 }
- 
-var_dump($line);
+
+
+
 ?>
