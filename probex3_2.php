@@ -1,9 +1,8 @@
 <?php
-class Month {
-    public static $val = "2020-04-14";
-}
+include 'probex3_1.php';
+
+$num = Month::sum();
 
 
-$value = Month::$val;
-echo "５か月後の月は".date("m", strtotime($value. "+5 month"))."月です。";
+ 
 ?>
