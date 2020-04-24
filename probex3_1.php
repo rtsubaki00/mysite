@@ -1,5 +1,8 @@
 <?php
  class Month {
+   
+     private $name;
+
      function set_name($name) {
        $this->name = $name;
      }
@@ -8,10 +11,7 @@
      }
    }
 
-   $month = new Month();
-   $month-> get_name ('2020-04-22');
-   
-   echo $month -> get_name();
+ 
 
    
    

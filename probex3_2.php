@@ -1,8 +1,7 @@
 <?php
-include 'probex3_1.php';
+include("probex3_1.php");
 
-$num = Month::sum();
+echo Month::get_name();
 
 
- 
 ?>
