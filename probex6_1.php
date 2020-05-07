@@ -9,6 +9,7 @@ if ($db->connect_error) {
 echo "<table>";
 
 
+
 $sql = "SELECT id, text, number FROM hello_table";
 if ($result = $db->query($sql)) {
 while ($row = $result->fetch_assoc()){
